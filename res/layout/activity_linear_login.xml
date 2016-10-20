@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guidelines_activity_login"
+        android:id="@+id/tv_login_guidlines"
+        android:textSize="@dimen/formal_text_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tv_picked_name"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Pick your name"
+        android:id="@+id/bt_choose_name_dialog"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/et_email_login"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter a valid Email address"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/et_password"
+        android:hint="Enter a password"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="@dimen/formal_text_size"
+        android:id="@+id/bt_sign_up"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+</LinearLayout>

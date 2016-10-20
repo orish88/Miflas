@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Miflas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_day_info">DayInfoActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="guidelines_activity_login">Welcome! Please choose your user name from the list, and pick a password</string>
+    <string name="title_activity_name_picker">NamePickerActivity</string>
+    <string name="action_sign_in">Sign up</string>
+    <string name="action_log_out">Log out/in</string>
+
+    <string name="replace">replace</string>
+    <string name="undo_replace">Undo replace</string>
+    <string name="ask_replacment">Ask for replacement</string>
+    <string name="revoke_replacment_request">Ask for replacement</string>
+
+    </resources>
