@@ -6,6 +6,6 @@ package share.fair.miflas;
 public class Constants {
 
     public static String MIFLAS_NAME_LIST = "miflas_name_list";
-
+//
 
 }
